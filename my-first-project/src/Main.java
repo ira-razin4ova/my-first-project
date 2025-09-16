@@ -31,7 +31,7 @@ public class Main {
         LocalDate today = LocalDate.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yy");
         System.out.println(today.format(formatter));
-        var cost= 20000;
+        var cost= 350000;
         System.out.println(cost);
 
 
