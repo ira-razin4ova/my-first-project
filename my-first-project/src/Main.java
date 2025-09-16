@@ -11,7 +11,7 @@ public class Main {
         System.out.println("Hello and welcome!\nWhats up?");
 
         int age;
-        age = 2025 - 1993;
+        age = 2025 - 1990;
         System.out.println(age);
         System.out.println("your years " + age);
         float num = 25.5665f;
