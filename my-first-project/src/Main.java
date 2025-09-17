@@ -7,8 +7,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         // comment this
-        System.out.println("Hello and welcome!\nWhats up");
-        System.out.println("Hello and welcome!\nWhats up?");
+        System.out.println("Привет Мир");
+        System.out.println("Hello world!");
+
+
+
 
         int age;
         age = 2025 - 1990;
@@ -31,9 +34,7 @@ public class Main {
         LocalDate today = LocalDate.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yy");
         System.out.println(today.format(formatter));
-        var cost= 20000;
+        var cost= 150000;
         System.out.println(cost);
-
-
     }
 }
