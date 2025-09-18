@@ -1,7 +1,8 @@
+import javax.sql.rowset.serial.SQLOutputImpl;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.Arrays;
 import java.util.Scanner;
-
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -9,11 +10,9 @@ public class Main {
         // comment this
         System.out.println("Привет Мир");
         System.out.println("Hello world!");
-
-
-
-
-        int age;
+    }
+}
+       /* int age;
         age = 2025 - 1990;
         System.out.println(age);
         System.out.println("your years " + age);
@@ -36,5 +35,6 @@ public class Main {
         System.out.println(today.format(formatter));
         var cost= 150000;
         System.out.println(cost);
-    }
-}
+        var apple = 20;
+        System.out.println("В коробке" + apple+ "кг яблок");
+        */
