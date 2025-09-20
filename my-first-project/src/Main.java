@@ -55,41 +55,17 @@ public class Main {
         System.out.println("Разница в весе " + differenceWeight);
 
         var remainder = boxer2 % boxer1;
-        System.out.println("Раница при делении " + remainder);
+        System.out.println("Разница при делении " + remainder);
 
         var time = 640;
-        var staff = 640 / 8;
+        var fullTime = 8;
+        var staff = time / fullTime;
         System.out.println("Всего работников в компании " + staff + " человек");
 
-        var staffPlus = 94 + staff;
-        var timeStaff = 640 % staffPlus;
-        System.out.println("Если в компании работает " + staffPlus + " человек, то всего " + timeStaff + " часов работы может быть поделено между сотрудниками ");
+        var plusStaff = 94;
+        var staffAll = plusStaff + staff;
+        var timeStaff = staffAll * fullTime;
+        System.out.println("Если в компании работает " + staffAll + " человек, то всего " + timeStaff + " часов работы может быть поделено между сотрудниками ");
 
     }
 }
-       /* int age;
-        age = 2025 - 1990;
-        System.out.println(age);
-        System.out.println("your years " + age);
-        float num = 25.5665f;
-        double num2 = num / 2;
-        System.out.println(num);
-        System.out.println(num2);
-        char ch = '?';
-        String user_name = "Irina?";
-        char toRemove = ch;
-        String result = user_name.replace(String.valueOf(toRemove), "!");
-        System.out.println(result);
-
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Введите ваше имя: ");
-        String userName = scan.nextLine();
-        System.out.println("Hello " + userName);
-        LocalDate today = LocalDate.now();
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yy");
-        System.out.println(today.format(formatter));
-        var cost= 150000;
-        System.out.println(cost);
-        var apple = 20;
-        System.out.println("В коробке" + apple+ "кг яблок");
-        */
